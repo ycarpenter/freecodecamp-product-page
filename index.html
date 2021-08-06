@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Template</title>
+  <!-- favicon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- User Story #1 -->
+  <!-- User Story #2 -->
+  <!-- User Story #3 -->
+  <!-- User Story #4 -->
+  <!-- User Story #5 -->
+  <!-- User Story #6 -->
+  <!-- User Story #7 -->
+  <!-- User Story #8 -->
+  <!-- User Story #9 -->
+  <!-- User Story #10 -->
+  <!-- User Story #11 -->
+  <!-- User Story #12 -->
+  <!-- User Story #13 -->
+  <!-- User Story #14 -->
+  <!-- User Story #15 -->
+
+  <header class="header" id="header">
+    <img src="./img/Flava.png" alt="logo" class="header__img" id="header-img">
+    <nav class="nav" id="nav-bar">
+      <ul class="nav__list" id="nav-list">
+        <li class="nav__list-item">
+          <a href="#header" class="nav-link active">HOME</a></li>
+        <li class="nav__list-item">
+          <a href="#lineup" class="nav-link">LINE UP</a></li>
+        <li class="nav__list-item">
+          <a href="#contacts" class="nav-link">CONTACTS</a></li>
+        <li class="nav__list-item">
+          <a href="#form" class="nav-link">BE PART OF</a></li>
+      </ul>
+    </nav>
+    <button class="header__button" id="header-button">CREATE ACCOUNT</button>
+  </header>
+
+  <main>
+    <article class="article">
+      <video 
+        src="./video/video-music-festival.mp4" 
+        muted
+        loop
+        poster="./img/poster-video.svg"
+        id="video" 
+        class="background__video">
+      </video>
+      <section class="text-container">
+        <h1 class="article__title">ALL ABOUT MUSIC - ITS ALL HERE</h1>
+        <p class="article__text">Turn on the feeling with all music event</p>
+        <!-- <button id="btn"><i class="fas fa-play"></i></button> -->
+      </section>
+    </article>
+
+    <article class="article">
+      <!-- timer -->
+      <section class="section timer" id="timer">
+        <h2 class="section__title">MUSIC FESTIVAL START IN</h2>
+        <section class="timer__wrapper">
+          <div class="timer__text">
+            <span id="days">98</span>
+            days
+          </div>
+          <div class="timer__text">
+            <span id="hours">11</span>
+            hours
+          </div>
+          <div class="timer__text">
+            <span id="minutes">05</span>
+            minutes
+          </div>
+          <div class="timer__text">
+            <span id="seconds">01</span>
+            seconds
+          </div>
+        </section>
+        <button class="section__btn">BUY TICKET</button>
+      </section>
+
+      <section class="section lineup" id="lineup">
+        <h2 class="section__title">THE LINEUP OF FLAFA</h2>
+        <div class="slider__buttons">
+          <i>Prev</i>
+          <i>Next</i>
+        </div>
+        <div class="slider__containers">
+          <figure>
+            <img src="" alt="" class="slider__img">
+            <figcaption class="slider__title">RAYUL</figcaption>
+          </figure>
+          <figure>
+            <img src="" alt="" class="slider__img">
+            <figcaption class="slider__title">ATIKH BANA</figcaption>
+          </figure>
+          <figure>
+            <img src="" alt="" class="slider__img">
+            <figcaption class="slider__title">RAFAELLA</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- sponsors -->
+      <section class="section sponsors">
+        <h2 class="section__title">SPONSORS</h2>
+        <ul class="sponsors__list">
+          <li class="sponsors__list-item">
+            <i></i>
+            <h6>VSTUDIO</h6>
+          </li>
+          <li class="sponsors__list-item">
+            <i></i>
+            <h6>PizzaHOT</h6>
+          </li>
+          <li class="sponsors__list-item">
+            <i></i>
+            <h6>Trainesia</h6>
+          </li>
+          <li class="sponsors__list-item">
+            <i></i>
+            <h6>Firevent</h6>
+          </li>
+          <li class="sponsors__list-item">
+            <i></i>
+            <h6>Baberock</h6>
+          </li>
+          <li class="sponsors__list-item">
+            <i></i>
+            <h6>Crocoday</h6>
+          </li>
+        </ul>
+        <div class="sponsors__nav">
+          <div class="sponsors__nav-item"></div>
+          <div class="sponsors__nav-item active"></div>
+          <div class="sponsors__nav-item"></div>
+        </div>
+      </section>
+
+      <section class="section contacts" id="contacts">
+        <div class="contacts__wrapper">
+          <div class="contacts__item">
+            <p class="contacts__title">Phone</p>
+            <a type="tel" href="" class="">+62 812 2345 678</a>
+          </div>
+          <div class="contacts__item">
+            <p class="contacts__title"></p>
+            <a type="email" href="" class="">Flavamusicfest@mail.com</a>
+          </div>
+        </div>
+        <form action="https://www.freecodecamp.com/email-submit" class="contacts__form" id="form">
+          <fieldset class="form__item">
+            <label for="email" class="form__label" id="id">Email</label>
+            <input type="email" class="form__input" name="email" id="email" placeholder="Your Email">
+          </fieldset>
+          <input type="submit" class="button-submit" id="submit" value="Subscribe">
+        </form>
+
+        <div class="contacts__social">
+          <a href="" class="contacts__social-link">
+            <img src="" alt="" class="contacts__social-img">
+          </a>
+          <a href="" class="contacts__social-link">
+            <img src="" alt="" class="contacts__social-img">
+          </a>
+          <a href="" class="contacts__social-link">
+            <img src="" alt="" class="contacts__social-img">
+          </a>
+        </div>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <nav class="footer__nav">
+      <ul class="nav__container">
+        <li>
+          Copyright © 2021
+        </li>
+        <li>
+           <a href="" class="footer__link">Flava - Music Festival</a>
+        </li>
+      </ul>
+      <ul class="nav__container">
+        <li>
+          <a href="" class="footer__link">Terms & Conditions for Event </a>
+          <a href="" class="footer__link">Privacy Policy </a>
+          <a href="" class="footer__link">Terms of Use</a>
+        </li>
+      </ul>
+    </nav>
+
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
