@@ -64,6 +64,13 @@ body {
   padding: 0 1rem;
 }
 
+.header__button:hover,
+.header__button:focus {
+  background-color: var(--main-color);
+  box-shadow: 0px 3px 5px var(--main-color);
+  transition: 0.5s;
+}
+
 .nav__list {
   display: flex;
   font-weight: 400;
@@ -198,7 +205,7 @@ figure {
 }
 
 .slider__img {
-  width: 15.4rem;
+  /* width: 15.4rem; */
   height: 19.1rem;
 }
 
@@ -322,20 +329,31 @@ figure {
     font-size: 1.9rem;
   }
 
+  .sponsors__list {
+    justify-content: center;
+  }
+
   .nav-link {
     padding-right: 1.3rem;
   }
 
+  .contacts {
+    padding: 0;
+  }
+
   .contacts__item {
-    padding-right: 9rem;
+    width: 100vw;
+    padding-right: 0;
   }
 
   .contacts__wrapper {
+    width: 100vw;
     grid-column: 1 /2;
     text-align: center;
   }
 
   .contacts__form {
+    margin-top: 3rem;
     justify-content: center;
     grid-column: 1 / 2;
     flex-wrap: wrap;
@@ -346,6 +364,10 @@ figure {
     grid-column: 1 / 2;
   }
 
+  .contacts__item:last-child {
+    margin-top: 0.5rem;
+  }
+
   .form__input {
     width: 14rem;
   }
@@ -354,8 +376,21 @@ figure {
     max-width: 28rem;
   }
 
+  .slider__img {
+    max-width: 15.4rem;
+  }
+
+  .button-submit {
+    margin: 1rem auto;
+  }
+
   .footer__nav {
     flex-wrap: wrap;
     justify-content: center;
+    padding: 0.2rem;
+  }
+
+  .nav__container {
+    min-width: 100vw;
   }
 }

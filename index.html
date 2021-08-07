@@ -4,8 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Template</title>
+  <title>Flava</title>
   <!-- favicon -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
@@ -58,7 +59,7 @@
         id="video" 
         class="background__video">
       </video>
-      <section class="text-container">
+      <section class="text-container" data-aos="zoom-out">
         <h1 class="article__title">ALL ABOUT MUSIC - ITS ALL HERE</h1>
         <p class="article__text">Turn on the feeling with all music event</p>
         <button id="btn"><i class="fas fa-play-circle"></i></button>
@@ -67,7 +68,7 @@
 
     <article class="article">
       <!-- timer -->
-      <section class="section timer" id="timer">
+      <section class="section timer" id="timer" data-aos="zoom-in-up">
         <h2 class="section__title">MUSIC FESTIVAL START IN</h2>
         <section class="timer__wrapper">
           <div class="timer__text">
@@ -90,12 +91,12 @@
         <button class="section__btn">BUY TICKET</button>
       </section>
 
-      <section class="section lineup" id="lineup">
+      <section class="section lineup" id="lineup" data-aos="fade-up">
         <h2 class="section__title">THE LINEUP OF FLAFA</h2>
-        <div class="slider__buttons">
+        <!-- <div class="slider__buttons">
           <i>Prev</i>
           <i>Next</i>
-        </div>
+        </div> -->
         <div class="slider__containers">
           <figure>
             <img src="img/rayul.png" alt="" class="slider__img">
@@ -113,7 +114,7 @@
       </section>
 
       <!-- sponsors -->
-      <section class="section sponsors">
+      <section class="section sponsors" data-aos="zoom-in-up">
         <h2 class="section__title">SPONSORS</h2>
         <ul class="sponsors__list">
           <li class="sponsors__list-item">
@@ -145,11 +146,11 @@
         </div>
       </section>
 
-      <section class="section contacts" id="contacts">
+      <section class="section contacts" id="contacts" data-aos="zoom-in-up">
         <div class="contacts__wrapper">
           <div class="contacts__item">
             <p class="contacts__title">Phone</p>
-            <a type="tel" href="" class="contacts__item-link">+62 812 2345 678</a>
+            <a type="tel" href="+628122345678" class="contacts__item-link">+62 812 2345 678</a>
           </div>
           <div class="contacts__item">
             <p class="contacts__title">Email</p>
@@ -175,6 +176,7 @@
             <img src="" alt="" class="contacts__social-img">
           </a>
         </div> -->
+        </section>
     </article>
   </main>
 
@@ -204,6 +206,10 @@
 
   </footer>
 
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script src="js/script.js"></script>
 </body>
 
